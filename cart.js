@@ -1,3 +1,4 @@
 function purchase(totalAmount) {
-    return totalAmount;
-}
+    const tax = totalAmount * 0.05;
+    return totalAmount + tax;
+}
